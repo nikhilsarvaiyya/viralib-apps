@@ -46,7 +46,36 @@ const menus = [
       ],
     },{
       label: "Button", path: "button",
-      children: [],
+      children: [
+        {
+          label: "Solid", path: "button/solid",
+          children: [],
+        },
+        {
+          label: "Outline", path: "button/outline",
+          children: [],
+        },
+        {
+          label: "Link", path: "button/link",
+          children: [],
+        },
+        {
+          label: "Disabled", path: "button/disabled",
+          children: [],
+        },
+        {
+          label: "Size", path: "button/size",
+          children: [],
+        },
+        {
+          label: "Border", path: "button/border",
+          children: [],
+        },
+        {
+          label: "Icon", path: "button/icon",
+          children: [],
+        }
+      ],
     }]
 
   export default menus
