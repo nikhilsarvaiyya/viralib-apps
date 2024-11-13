@@ -145,18 +145,18 @@ body {
 }
 
 .app-nav ul li a::before {
-  background: url('../img/folder.svg') no-repeat;
+  background: url('../img/svg/folder.svg') no-repeat;
   background-size: 16px 20px;
   background-position: 0% 0%;
 }
 
 .app-nav ul li .submenu a::before {
-  background: url('../img/file.svg') no-repeat;
+  background: url('../img/svg/file.svg') no-repeat;
   background-size: 16px 19px;
 }
 
 .app-nav ul li .submenu .subsubmenu a::before {
-  background: url('../img/twofile.svg') no-repeat;
+  background: url('../img/svg/twofile.svg') no-repeat;
   background-size: 16px 18px;
 }
 
@@ -167,7 +167,7 @@ body {
 
 .app-nav ul li .submenu {
   overflow: hidden;
-  max-height: 0;
+  max-height: 500px; // make 0 to hide
   -webkit-transition: all 0.5s ease-out;
 }
 

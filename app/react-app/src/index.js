@@ -9,6 +9,7 @@ import Button from './Components/Button/';
 
 import NoPage from './Components/NoPage';
 import Dashboard from './Components/Dashboard';
+import Avatar from './Components/Avatar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,10 @@ root.render(
         <Route path="table/:page/:type" element={<Table />} />
         <Route path="button" element={<Button />} />
         <Route path="button/:page" element={<Button />} />
+        <Route path="button/:page/:type" element={<Button />} />
+        <Route path="avatar" element={<Avatar />} />
+        <Route path="avatar/:page" element={<Avatar />} />
+        <Route path="avatar/:page/:type" element={<Avatar />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>

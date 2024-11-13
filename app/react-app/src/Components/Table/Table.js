@@ -6,7 +6,7 @@ import { useParams } from 'react-router';
 import { row, column, option, action, toolbar } from '../../assets/data/code';
 import openTab from '../../assets/js/main';
 
-console.log(row)
+
 const Table = () => {
   const params = useParams();
 
