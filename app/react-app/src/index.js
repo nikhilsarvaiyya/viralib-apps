@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './assets/css/style.scss'
 
 import App from './App';
-import Table from './Components/Table/Table';
 import Button from './Components/Button/';
 
 import NoPage from './Components/NoPage';
@@ -17,9 +16,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Dashboard />} />
-        <Route path="table" element={<Table />} />
-        <Route path="table/:page" element={<Table />} />
-        <Route path="table/:page/:type" element={<Table />} />
+       
         <Route path="button" element={<Button />} />
         <Route path="button/:page" element={<Button />} />
         <Route path="button/:page/:type" element={<Button />} />
