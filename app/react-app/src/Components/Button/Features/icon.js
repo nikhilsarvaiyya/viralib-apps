@@ -74,7 +74,7 @@ let displayExample = <>
 </div>
 
 </>
-const codeExample = <ul>{iconList.map(m => {return <li>{m}</li>})}</ul>
+const codeExample = <ul>{iconList.map((m,i) => {return <li key={i}>{m}</li>})}</ul>
 
 const VariantIconExample = displayExample;
 const VariantIconCode = codeExample;

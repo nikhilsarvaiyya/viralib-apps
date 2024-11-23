@@ -13,12 +13,17 @@ const CreateChild = (data, subMenu) => {
 // Main Menu List
 let menus = [
   { label: "Avatar", path: "avatar" },
+  { label: "Table", path: "table" },
   {
     label: "Button", path: "button",
     children: [
       { label: "Icon", path: "button/icon" }
     ],
-  }]
+  },{
+    label: "Input", path: "input",
+    
+  }
+]
 
 // Sub Menu list
 

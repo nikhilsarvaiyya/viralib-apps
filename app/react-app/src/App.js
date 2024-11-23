@@ -19,7 +19,7 @@ const App = () => {
   let renderMenu = menu?.map((item, i) => {
     return (
       <>
-        <li><Link to={item.path}>{item.label}</Link>
+        <li key={i}><Link to={item.path}>{item.label}</Link>
           {item?.children?.length > 0 ?
             <>
               {renderIcon}
